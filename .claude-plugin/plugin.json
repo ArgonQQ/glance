@@ -1,6 +1,6 @@
 {
   "name": "glance",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A status band above the prompt: project, model and effort, coloured context use, 5h and 7d plan limits with reset times.",
   "author": {
     "name": "ArgonQQ"
