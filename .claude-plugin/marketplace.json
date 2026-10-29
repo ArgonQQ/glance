@@ -1,0 +1,5 @@
+{
+  "name": "glance",
+  "owner": { "name": "ArgonQQ" },
+  "plugins": [{ "name": "glance", "source": "./" }]
+}

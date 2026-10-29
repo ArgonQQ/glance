@@ -1,0 +1,56 @@
+{
+  "name": "glance",
+  "version": "0.1.0",
+  "description": "A status band above the prompt: project, model and effort, coloured context use, 5h and 7d plan limits with reset times.",
+  "author": {
+    "name": "ArgonQQ"
+  },
+  "homepage": "https://github.com/ArgonQQ/glance",
+  "repository": "https://github.com/ArgonQQ/glance",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "ctxWarn": {
+      "type": "number",
+      "title": "Context orange above (%)",
+      "description": "Context use above this percentage turns orange.",
+      "default": 20
+    },
+    "ctxCrit": {
+      "type": "number",
+      "title": "Context red above (%)",
+      "description": "Context use above this percentage turns red.",
+      "default": 35
+    },
+    "folderIcon": {
+      "type": "string",
+      "title": "Folder icon",
+      "description": "Shown before the project folder; empty hides it.",
+      "default": "📁"
+    },
+    "modelIcon": {
+      "type": "string",
+      "title": "Model icon",
+      "description": "Shown before the model; empty hides it.",
+      "default": "⚙️"
+    },
+    "textColor": {
+      "type": "string",
+      "title": "Text colour",
+      "description": "Colour of the band's plain text, as a hex code (#8aa4c8) or a theme colour name.",
+      "default": "#8aa4c8"
+    },
+    "showFiveHourReset": {
+      "type": "boolean",
+      "title": "Show 5h reset countdown",
+      "description": "Show how long until the 5-hour window resets.",
+      "default": true
+    },
+    "showWeeklyReset": {
+      "type": "boolean",
+      "title": "Show weekly reset time",
+      "description": "Show the day and time the 7-day window resets.",
+      "default": true
+    }
+  }
+}
